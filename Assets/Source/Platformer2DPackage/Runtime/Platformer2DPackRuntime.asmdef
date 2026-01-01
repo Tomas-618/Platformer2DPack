@@ -1,0 +1,14 @@
+{
+    "name": "Platformer2DPackRuntime",
+    "rootNamespace": "Platformer2DPackage",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

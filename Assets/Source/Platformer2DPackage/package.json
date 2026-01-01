@@ -1,0 +1,7 @@
+﻿{
+  "name": "com.tomas-618.platformer_2d_pack",
+  "version": "1.0.0",
+  "displayName": "Platformer 2D Pack",
+  "description": "Pack of components for 2D platformer-like game.",
+  "unity": "2021.3"
+}
