@@ -10,7 +10,7 @@ namespace Platformer2DPackage
     {
         public Vector2 Velocity;
 
-        private readonly List<ICharacterMovementModule> _modules = new();
+        private readonly HashSet<ICharacterMovementModule> _modules = new();
 
         private Rigidbody2D _rigidbody2D;
 
@@ -56,9 +56,6 @@ namespace Platformer2DPackage
 
             _modules.Add(module);
         }
-
-        public void AddRangeModules(params ICharacterMovementModule[] modules) =>
-            _modules.AddRange(modules);
 
         public void RemoveModule(ICharacterMovementModule module)
         {
